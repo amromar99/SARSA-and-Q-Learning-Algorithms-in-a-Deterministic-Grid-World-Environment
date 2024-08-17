@@ -71,7 +71,7 @@ This report thoroughly examined SARSA and Q-learning algorithms in a determinist
 5. Analyze the results through the output logs and visualizations.
 
 ## Authors
-- **Amr Mostafa Ibrahim**
+- **Eng/Amr Mostafa Ibrahim** TA @ ITCS , Nile University , Cairo , Egypt
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
