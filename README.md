@@ -5,7 +5,8 @@ This report delves into the comparative analysis of Q-learning and SARSA algorit
 
 The environment consists of a 9x10 grid featuring predefined start and goal positions, alongside various blocked cells. The agent's objective is to navigate from the start to the goal while maneuvering around blocked cells to minimize steps and maximize average rewards.
 
-![Grid World Environment](fig1.png)  
+![image](https://github.com/user-attachments/assets/e5f5ed7a-6894-4500-bdcb-24825805579a)
+ 
 *Figure 1: The grid world environment. A) Initial state for agent (2, 2). B) Agent reached state (1, 2), received reward (0) and will receive -5 in case of blocked cell and 10 if it reaches the goal at (2,8).*
 
 ## Algorithms
@@ -60,6 +61,9 @@ To compare the performance and efficiency of SARSA and Q-learning, we use the fo
 
 ## Conclusion
 This report thoroughly examined SARSA and Q-learning algorithms in a deterministic grid world setting. SARSA demonstrated robust efficiency with Epsilon = 0.2, achieving quick convergence and a high average reward of 9.605. In contrast, Q-learning performed well with Epsilon = 0.4, converging swiftly in 0.03 seconds with 8 steps and an average reward of 7.09. Higher epsilon values expedited learning but resulted in lower rewards due to increased exploration risks. SARSA with Epsilon = 0.2 is optimal for exploitation, while Q-learning benefits from Epsilon around 0.4 for a balanced exploration-exploitation trade-off.
+
+![image](https://github.com/user-attachments/assets/27ae805f-ed2c-4d66-8c0d-9e915591614b)
+
 
 ## How to Run the Code
 1. Clone the repository.
