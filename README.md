@@ -7,8 +7,6 @@ The environment consists of a 9x10 grid featuring predefined start and goal posi
 
 ![image](https://github.com/user-attachments/assets/e5f5ed7a-6894-4500-bdcb-24825805579a)
  
-*Figure 1: The grid world environment. A) Initial state for agent (2, 2). B) Agent reached state (1, 2), received reward (0) and will receive -5 in case of blocked cell and 10 if it reaches the goal at (2,8).*
-
 ## Algorithms
 
 ### SARSA Algorithm (State-Action-Reward-State-Action)
